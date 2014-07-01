@@ -1,0 +1,31 @@
+metro-stations-belgrave.txt Line
+#station,px,py
+Flinders,918,737
+Richmond,972,751
+East Richmond,995,755
+Burnley,1017,759
+Hawthorn,1046,743
+Glenferrie,1078,741
+Auburn,1098,744
+Camberwell,1125,751
+East Camberwell,1146,752
+Canterbury,1178,749
+Chatham,1199,746
+Surrey Hills,1218,747
+Mont Albert,1235,735
+Box Hill,1268,732
+Laburnum,1311,737
+Blackburn,1334,735
+Nunawading,1392,735
+Mitcham,1428,729
+Heatherdale,1470,731
+Ringwood,1510,723
+[Turn],1527,721
+Heathmont,1544,764
+Bayswater,1600,796
+Boronia,1635,846
+Ferntree Gully,1656,908
+Upper Ferntree Gully,1684,940
+Upwey,1737,970
+Tecoma,1762,982
+Belgrave,1791,988

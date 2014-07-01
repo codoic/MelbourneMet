@@ -1,0 +1,19 @@
+metro-stations-glen-waverley.txt Line
+#station,px,py
+Flinders,917,733
+Richmond,973,747
+East Richmond,995,753
+Burnley,1013,756
+[Turn],1034,757
+Heyington,1051,785
+Kooyong,1072,790
+Tooronga,1087,818
+Gardiner,1113,829
+Glen Iris,1127,847
+Darling,1138,874
+East Malvern,1149,892
+Holmesglen,1202,889
+Jordanville,1246,889
+Mount Waverley,1281,891
+Syndal,1331,894
+Glen Waverley,1358,903

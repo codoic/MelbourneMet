@@ -1,0 +1,18 @@
+metro-stations-sunbury.txt Line
+#station,px,py
+Flinders,917,732
+Southern Cross,889,726
+North Melbourne,859,686
+South Kensington,829,676
+Footscray,783,684
+Middle Footscray,756,686
+West Footscray,738,685
+Tottenham,690,677
+Sunshine,628,650
+Albion,609,618
+Ginifer,579,564
+St Albans,556,527
+Keilor Plains,544,487
+Watergardens,499,400
+Diggers Rest,379,189
+Sunbury,398,58

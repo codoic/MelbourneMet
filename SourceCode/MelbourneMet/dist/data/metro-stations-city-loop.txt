@@ -1,0 +1,8 @@
+metro-stations-city-loop.txt Line
+#station,px,py
+Flinders,917,731
+Southern Cross,891,731
+Flagstaff,899,712
+Melbourne Central,916,706
+Parliament,938,710
+Flinders,917,731

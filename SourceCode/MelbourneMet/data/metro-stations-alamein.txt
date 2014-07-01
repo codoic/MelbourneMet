@@ -1,0 +1,17 @@
+metro-stations-alamein.txt Line
+#station,px,py
+Flinders,920,737
+Richmond,975,748
+East Richmond,994,755
+Burnley,1014,759
+Hawthorn,1049,743
+Glenferrie,1076,740
+Auburn,1100,741
+Camberwell,1121,757
+[Turn],1137,758
+Riversdale,1154,772
+Willison,1159,788
+Hartwell,1168,805
+Burwood,1177,827
+Ashburton,1181,855
+Alamein,1177,872

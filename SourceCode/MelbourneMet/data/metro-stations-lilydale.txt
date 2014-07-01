@@ -1,0 +1,27 @@
+metro-stations-lilydale.txt Line
+#station,px,py
+Flinders,918,730
+Richmond,972,751
+East Richmond,996,757
+Burnley,1015,760
+Hawthorn,1049,743
+Glenferrie,1078,740
+Auburn,1099,743
+Camberwell,1124,753
+East Camberwell,1145,752
+Canterbury,1178,748
+Chatham,1199,747
+Surrey Hills,1217,748
+Mont Albert,1233,734
+Box Hill,1271,731
+Laburnum,1312,737
+Blackburn,1334,735
+Nunawading,1394,733
+Mitcham,1427,729
+Heatherdale,1472,731
+Ringwood,1512,723
+[Turn],1527,720
+Ringwood East,1556,713
+Croydon,1624,665
+Mooroolbark,1701,635
+Lilydale,1772,553

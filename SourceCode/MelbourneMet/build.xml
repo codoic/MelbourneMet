@@ -1,0 +1,66 @@
+<!-- File Name : build.xml
+author : Nitesh and Harjot
+created: 12-11-2013
+Last modified : 13-11-2013
+purpose : To build and run project Assignment2 using ant -->
+
+<project name="Assignment2" default="usage" basedir=".">
+    <description>Builds and runs the Assignment2 Project.</description>
+    <import file="nbproject/build-impl.xml"/>
+   
+ 	<!-- set global properties for this build -->
+	<property name="src.dir" value="src"/>      <!--src.dir refers the source folder of a project-->
+	<property name="build.dir" value="build"/>    <!--build.dir refers the build folder of a project-->
+	<property name="classes.dir" value="${build.dir}/classes"/>	  <!--classes.dir refers to the classes folder under build folder-->
+    <property name="javaDocs.dir" value="dist/javadocs"/>		 <!--javaDocs.dir refers the javaDocs folder of a project-->
+	<property name="dist.dir" value="dist"/>    <!--dist.dir refers the dist folder of a project-->
+	
+	<!--Usage is the default target. It'll show all the available options for this project-->
+	<target name="usage" >
+		  <echo message = "These are the available targets for this project."/>
+		  <echo message ="clean"/>
+		  <echo message="build"/>
+		  <echo message= "run" />
+		  <echo message ="docs"/>
+	  </target>
+	  
+	<!-- Compiles the source files and generates corressponding class files and store them into classes folder-->  
+	  <target name="build" description="Compiles the source files">
+			 <javac srcdir="${src.dir}" destdir="${classes.dir}"/>
+	  </target>
+	
+	<!-- Delete all the class file under class folder-->
+	  <target name="clean" description="Delete all generated class files">
+          <delete>
+					<fileset dir="${classes.dir}">
+					<include name="**/*.class"/>               <!-- includes all the class files from classes folder-->
+					</fileset>
+					
+		  </delete>
+	  </target>
+	  
+	 <!--This target runs the project by executing system generated jar file-->  
+    <target name="run" depends="jar,build">
+        <java jar="${dist.dir}/Assignment2.jar" fork="true"/>
+    </target>
+	  
+    <!--This target creates the Html documentation for Assignment1 project-->  
+	<target name="docs" description="Generate HTML Documentation">
+    <javadoc packagenames="assignment2" 
+			sourcepath="${src.dir}" 
+            destdir="javaDocs" 
+		    author="true"
+			version="true"
+			private="true"
+			use="true"
+			windowtitle="MetMap JavaDocs">
+			<fileset dir=".">
+            <include name="**/*.java" />
+            </fileset>
+      <doctitle><![CDATA[= MetMap Documentation =]]></doctitle>
+      <bottom><![CDATA[Copyright © 2013. All Rights Reserved.]]></bottom>
+    </javadoc>
+    <echo message="java documentation has been generated!" />
+</target>
+	 
+</project>
