@@ -27,7 +27,6 @@ Save the file. File>Save. Please make sure you save it as a same FileName or you
 After save operation you can run the project again to move the trains with new position data.
 ##OTHER
 The trains are Blue color if going to the City and Green if running from the City. 
-We have done minor changes in csv files. We have changed all the record which appeared as row to appear as column. This makes the file more readable as each train is mapping station in a new line. This was done after permission from the Lecturer. 
 We have implemented Menu Bar to change specific day of week. By default, it will read all timetables for Mon-Fri. However, if you would like to change choose Saturday or Sunday respectively. Please make sure you have schedule (.csv) files for those days.  
 
 	
