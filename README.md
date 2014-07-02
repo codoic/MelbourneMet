@@ -1,7 +1,7 @@
 MelbourneMet
 ============
 
-Melbourne Met is a JAVA application to animate trains in Melbourne’s map. Using this application you are able to enter the time and locate the overall location of trains in map. It was developed to learn Java Swing API, Java2D, Threads, Collection API and ANT.    
+Melbourne Met is a JAVA application to animate trains on Melbourne’s map. Using this application you are able to enter the time and locate the trains. It was uses Java Swing API, Java2D, Threads, Collection API and ANT.    
 
 ##Running the application. 
 The jar file can be executed by simply double clicking in Assignment2.jar located inside Assignment2/MebourneMet folder or using “java -jar "..\Assignment2\MelbourneMet\Assignment2.jar from command line. Please change the path to your own path. Please make sure you have the data folder in the same directory as Assignment2.jar.The javaDoc is located inside MelbourneMet. Please double click index.html inside javadoc folder.  
